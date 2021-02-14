@@ -15,6 +15,7 @@
 
 .container {
   width: 1200px;
+
   padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid tomato;
@@ -22,7 +23,6 @@
 /* Hero */
 .main-section .container {
   background-color: var(--background-color-hero);
-  padding-left: 285px;
   padding-bottom: 280px;
 }
 /* Заголовок */
@@ -33,8 +33,9 @@
   font-size: 44px;
   line-height: 60px;
   color: var(--white-text);
-  justify-content: center;
   padding-top: 200px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Link */
@@ -58,21 +59,27 @@
   background-color: var(--blue-text);
   color: var(--white-text);
   padding: 10px 32px;
-  margin-top: 30px 0;
   display: block;
+  margin: 30px auto 0;
   text-align: center;
   border-radius: 4px;
 }
-.hero-btn {
-  display: flex;
+
+/* .hero-btn {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-}
+  text-align: center;
+} */
 
 /*Наші Переваги Заголовок */
 .our-features {
   display: flex;
   justify-content: space-between;
+}
+
+.our-features li:not(:last-child) {
+  margin-right: 30px;
+  margin-left: 0;
 }
 
 .features {
@@ -98,6 +105,7 @@
 }
 
 /* Чим ми займаємось */
+
 .what-we-do-title {
   font-family: Roboto;
   font-style: normal;
@@ -110,6 +118,8 @@
 /* Наша Команда */
 .our-team {
   background-color: var(--background-color-team);
+  display: flex;
+  margin-top: 94px;
 }
 .our-team-title {
   font-family: Roboto;

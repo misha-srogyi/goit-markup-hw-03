@@ -15,6 +15,10 @@
   margin: 0;
   padding: 0;
 }
+ul,
+ol {
+  list-style-type: none;
+}
 /* Header */
 .header-nav,
 .nav-list,
@@ -25,6 +29,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
+  padding-bottom: 25px;
 }
 .nav-list li {
   margin-left: 50px;
