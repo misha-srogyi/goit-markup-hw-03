@@ -1,0 +1,142 @@
+/* Ховаємо заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+/* Hero */
+.main-section .container {
+  background-color: var(--background-color-hero);
+  padding-left: 285px;
+  padding-bottom: 280px;
+}
+/* Заголовок */
+.container .main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--white-text);
+  justify-content: center;
+  padding-top: 200px;
+}
+
+/* Link */
+/* .order-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+} */
+
+/* Button */
+.order-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  background-color: var(--blue-text);
+  color: var(--white-text);
+  padding: 10px 32px;
+  margin-top: 30px 0;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Наші Переваги Заголовок */
+.our-features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features {
+  margin: 94px 0;
+}
+.subtitle-features {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--black-text);
+}
+
+/* Наші Переваги Текст */
+.features-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--grey-text);
+}
+
+/* Чим ми займаємось */
+.what-we-do-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--black-text);
+}
+
+/* Наша Команда */
+.our-team {
+  background-color: var(--background-color-team);
+}
+.our-team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.name-employee {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.position-employee {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--grey-text);
+}
