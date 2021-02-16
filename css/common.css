@@ -111,6 +111,7 @@ address {
 }
 
 .nav-list-link:hover,
+.nav-list-link.current,
 .nav-list-link:focus {
   color: var(--blue-text);
 }

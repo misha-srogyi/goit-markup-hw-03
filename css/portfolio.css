@@ -40,9 +40,9 @@
   border-radius: 4px;
   border: none;
 }
-
-.button-name :hover,
-:focus {
+.button-title.active,
+.button-title:hover,
+.button-title:focus {
   background: var(--blue-text);
   color: var(--white-text);
 }

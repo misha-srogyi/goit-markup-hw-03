@@ -22,7 +22,7 @@
 } */
 
 /* Hero */
-.main-section .container {
+.main-section {
   background-color: var(--background-color-hero);
   padding-bottom: 280px;
 }
@@ -64,6 +64,7 @@
   margin: 30px auto 0;
   text-align: center;
   border-radius: 4px;
+  border: none;
 }
 
 /* .hero-btn {
