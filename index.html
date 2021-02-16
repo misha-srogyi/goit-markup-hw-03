@@ -26,7 +26,7 @@
   </head>
   <body>
     <!--Шапка сторінки-->
-    <header class="header">
+    <header>
       <!-- Container -->
       <div class="container">
         <nav class="header-nav">
@@ -37,11 +37,13 @@
             <li>
               <a class="nav-list-link studio" href="./index.html">Студия </a>
             </li>
+
             <li>
               <a class="nav-list-link portfolio" href="./portfolio.html">
                 Портфолио
               </a>
             </li>
+
             <li>
               <a class="nav-list-link contacts" href="#contacts">Контакти</a>
             </li>
@@ -53,6 +55,7 @@
                 >info@devstudio.com
               </a>
             </li>
+
             <li>
               <a class="contacts-item header" href="tel:+380961111111"
                 >+380961111111
@@ -61,7 +64,6 @@
           </ul>
         </nav>
       </div>
-      <!-- Container -->
     </header>
 
     <!-- Main -->
@@ -86,7 +88,7 @@
       <section class="features">
         <!-- Container -->
         <div class="container">
-          <h2 class="visually-hidden">Наші переваги</h2>
+          <h3 class="visually-hidden">Наші переваги</h3>
           <ul class="our-features">
             <li>
               <h3 class="subtitle-features">Внимание к деталям</h3>
@@ -95,6 +97,7 @@
                 формированию позиции.
               </p>
             </li>
+
             <li>
               <h3 class="subtitle-features">Пунктуальность</h3>
               <p class="features-text">
@@ -102,6 +105,7 @@
                 кадров влечет за собой.
               </p>
             </li>
+
             <li>
               <h3 class="subtitle-features">Планирование</h3>
               <p class="features-text">
@@ -109,6 +113,7 @@
                 степени обуславливает.
               </p>
             </li>
+
             <li>
               <h3 class="subtitle-features">Современные технологии</h3>
               <p class="features-text">
@@ -126,7 +131,7 @@
       <section class="what-we-do">
         <div class="container">
           <h2 class="what-we-do-title">Чем мы занимаемся</h2>
-          <ul>
+          <ul class="what-we-do-photo">
             <li>
               <img src="./images/img-1.jpg" width="370" alt="photo-1" />
             </li>
@@ -145,42 +150,50 @@
       <section class="our-team">
         <div class="container">
           <h2 class="our-team-title">Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="our-team-workers">
+            <li class="our-team-item">
               <img
                 src="./images/Игорь-Демяненко.jpg"
                 width="270"
                 alt="Игорь Демяненко"
               />
-              <h3 class="name-employee">Игорь Демяненко</h3>
-              <p>Product Designer</p>
+              <div class="workers-card">
+                <h3 class="name-employee">Игорь Демяненко</h3>
+                <p>Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="our-team-item">
               <img
                 src="./images/Ольга-Репина.jpg"
                 width="270"
                 alt="Ольга Репина"
               />
-              <h3 class="name-employee">Ольга Репина</h3>
-              <p class="position-employee">Frontend Developer</p>
+              <div class="workers-card">
+                <h3 class="name-employee">Ольга Репина</h3>
+                <p class="position-employee">Frontend Developer</p>
+              </div>
             </li>
-            <li>
+            <li class="our-team-item">
               <img
                 src="./images/Николай-Тарасов.jpg"
                 width="270"
                 alt="Николай Тарасов"
               />
-              <h3 class="name-employee">Николай Тарасов</h3>
-              <p class="position-employee">Marketing</p>
+              <div class="workers-card">
+                <h3 class="name-employee">Николай Тарасов</h3>
+                <p class="position-employee">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="our-team-item">
               <img
                 src="./images/Михаил-Ермаков.jpg"
                 width="270"
                 alt="Михаил Ермаков"
               />
-              <h3 class="name-employee">Михаил Ермаков</h3>
-              <p class="position-employee">UI Designer</p>
+              <div class="workers-card">
+                <h3 class="name-employee">Михаил Ермаков</h3>
+                <p class="position-employee">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -190,16 +203,26 @@
     <!-- Підвал сторінки -->
 
     <footer class="footer" id="contacts">
-      <a href="/index.html" class="main-logo footer">
-        <span class="main-logo color">Web</span>Studio</a
-      >
-      <address>
-        <p class="contacts-address">г.Киев, пр-т Леси Украинки, 26</p>
-        <a class="contacts-item" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="contacts-item" href="tel:+380991111111">+380991111111</a>
-      </address>
+      <div class="container">
+        <a href="/index.html" class="main-logo-footer">
+          <span class="main-logo color">Web</span>Studio
+        </a>
+        <address>
+          <p class="contacts-address">г.Киев, пр-т Леси Украинки, 26</p>
+          <ul class="footer-contacts">
+            <li>
+              <a class="contacts-item" href="mailto:info@example.com"
+                >info@example.com
+              </a>
+            </li>
+            <li>
+              <a class="contacts-item" href="tel:+380991111111"
+                >+380991111111
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

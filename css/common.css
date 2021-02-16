@@ -11,6 +11,9 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.body {
+  font-family: 'Roboto', sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +22,24 @@ ul,
 ol {
   list-style-type: none;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* outline: 2px solid tomato; */
+}
 /* Header */
+header {
+  border-bottom: 1px solid var(--border-head);
+}
+
 .header-nav,
 .nav-list,
 .nav-contacts {
@@ -32,18 +52,18 @@ ol {
   padding-bottom: 25px;
 }
 .nav-list li {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 .nav-list {
-  padding-right: 331px;
+  margin-right: 331px;
 }
 .nav-contacts li:last-child {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 /* Navigation */
 .main-logo {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -58,15 +78,28 @@ ol {
 }
 
 /* Footer */
-.main-logo.footer {
+.main-logo-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+
   color: var(--white-text);
+}
+
+address {
+  margin-top: 20px;
 }
 
 .nav-list {
   list-style-type: none;
 }
 .nav-list-link {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
@@ -82,7 +115,7 @@ ol {
   color: var(--blue-text);
 }
 .contacts-item {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -90,6 +123,10 @@ ol {
   letter-spacing: 0.02em;
   color: var(--white-text-op60);
   text-decoration: none;
+}
+
+.footer-contacts li:not(:last-child) {
+  margin-bottom: 9px;
 }
 .contacts-item.header {
   color: var(--grey-text);
@@ -102,15 +139,19 @@ ol {
   list-style-type: none;
 }
 .contacts-address {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--white-text);
+
+  margin-bottom: 9px;
 }
 
 .footer {
   background: #2f303a;
+  padding: 60px 0;
+  border: 1px;
 }
