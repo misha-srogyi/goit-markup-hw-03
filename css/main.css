@@ -32,7 +32,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   color: var(--white-text);
   padding-top: 200px;
   text-align: center;
@@ -95,7 +95,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   color: var(--black-text);
   text-transform: uppercase;
 }
@@ -106,7 +106,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: var(--grey-text);
   padding-top: 10px;
 }
@@ -114,13 +114,14 @@
 /* Чим ми займаємось */
 .what-we-do {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .what-we-do-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.66;
   color: var(--black-text);
   text-align: center;
   padding-bottom: 50px;
@@ -143,7 +144,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.66;
   letter-spacing: 0.03em;
   color: var(--black-text);
   text-align: center;
@@ -175,7 +176,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--black-text);
 }
@@ -185,7 +186,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--grey-text);
 }

@@ -17,6 +17,8 @@
   padding-top: 94px;
 }
 
+/* Buttons */
+
 .buttons {
   list-style-type: none;
   display: flex;
@@ -30,10 +32,10 @@
 .button-title {
   background: var(--background-button);
   color: var(--black-text);
-  font-family: inherit;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
@@ -47,34 +49,35 @@
   color: var(--white-text);
 }
 
-.card {
-  flex-basis: calc(100% / 3 - var(--portfolio-title-grap));
-  margin-left: var(--portfolio-title-grap);
-  margin-top: var(--portfolio-title-grap);
-}
-
 .portfolio-title {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
   margin-left: calc(-1 * var(--portfolio-title-grap));
   margin-top: calc(-1 * var(--portfolio-title-grap));
 }
-/* .portfolio-item > .portfolio-title {
+/* 
+.card-portfolio:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+.card-portfolio {
   flex-basis: calc(100% / 3 - var(--portfolio-title-grap));
+  margin-left: var(--portfolio-title-grap);
   margin-top: var(--portfolio-title-grap);
-} */
+  border: 1px solid #eeeeee;
+}
 
-/* .portfolio-item * {
-  outline: 1px solid tomato;
-} */
-
+.card-content {
+  padding: 20px 24px;
+}
 .card-headling {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-text);
 }
@@ -85,11 +88,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--grey-text);
-}
-
-.card-content {
-  padding: 20px 24px;
 }
